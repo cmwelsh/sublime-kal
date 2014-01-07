@@ -1,0 +1,7 @@
+{
+  "selector": "source.jsx",
+  "cmd": ["node", "$packages/JSX/build-jsx.js", "$file", "$packages/JSX/"],
+  "file_regex": "jsx: (.+)\\]",
+  "line_regex": "(\\d+)[,:](\\d+): (.*)$",
+  "path": "/usr/local/bin:$PATH"
+}
