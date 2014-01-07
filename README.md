@@ -10,7 +10,7 @@ This package adds a build system to [Sublime Text](http://sublimetext.com) to tr
 ![ScreenShot](preview.png)
 
 
-**Disclaimer** This is the build system I personally use and it is a work in progress. It is tested on Mac OS X. It *does replace* the existing .js file with the same name in the same directory of the .jsx file.
+**Disclaimer** This is the build system I personally use and it is a work in progress. It is tested on Mac OS X. It *does replace* the existing .js file with the same name in the same directory of the .jsx file. Contribution and feedback are welcome! 
 
 **Requisites** You need to have installed [Node.js](http://nodejs.org), [JSHint](https://github.com/jshint/jshint) and [react-tools](https://npmjs.org/package/react-tools). 
 
