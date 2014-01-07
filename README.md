@@ -38,4 +38,4 @@ This trick should enable this build tool automatically for any JSX file:
 
 ### Command not found?
 
-Make sure to add the right `path` to [JSX.sublime-build](JSX.sublime-build).
+Make sure to have set the right `path` to [JSX.sublime-build](JSX.sublime-build). To find the right paths, use `which node`, `which jsx` and `which jshint`.
