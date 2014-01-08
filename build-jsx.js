@@ -19,7 +19,7 @@ rm.on('exit', function () {
     // cwd is the $file's path
     var jsx = childProcess.exec("jsx --no-cache-dir --extension jsx . . " + file_base_name, function (error, stdout, stderr) {
         var buffer = '';
-        if (error) {
+        if (error && error.code === 127) {
             buffer += error.stack;
             buffer += '\nPlease check `jsx` is installed and it is available in your $PATH.\n';
         } else {
