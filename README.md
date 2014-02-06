@@ -1,11 +1,13 @@
 JSX compiler (+ JSHint) for Sublime Text 2
 ===========
 
-This package adds a build system to [Sublime Text](http://sublimetext.com) to transform a [React](http://facebook.github.io/react/) JSX file into JS. 
+This package adds a build system to [Sublime Text 2](http://sublimetext.com) to transform a [React](http://facebook.github.io/react/) JSX file into JS. 
 
 * It also runs [JSHint](https://github.com/jshint/jshint) over the transformed file.
 * It compiles the JSX file into the same path.
 * It works great with [SublimeOnSaveBuild](https://github.com/alexnj/SublimeOnSaveBuild).
+
+For Sublime Text 3, check out [SublimeLinter-jsxhint](https://github.com/SublimeLinter/SublimeLinter-jsxhint).
 
 ![ScreenShot](preview.png)
 
