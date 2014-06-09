@@ -1,0 +1,7 @@
+{
+  "selector": "source.kal",
+  "cmd": ["node", "$packages/Kal/build-kal.js", "$file", "$packages/Kal/"],
+  "file_regex": "kal: (.+)\\]",
+  "line_regex": "(\\d+)[,:](\\d+): (.*)$",
+  "path": "/usr/local/bin:$PATH"
+}
